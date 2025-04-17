@@ -1,0 +1,19 @@
+@media (max-width:800px){
+    #menu{
+        display: inline;
+    }
+    #menu-screen{
+        display: none;
+    }
+}
+@media (min-width: 800px) {
+    .footer-container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    .footer-right {
+      align-items: flex-end;
+    }
+  }
