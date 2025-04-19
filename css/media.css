@@ -1,0 +1,35 @@
+@media (max-width:800px){
+    #menu{
+        display: inline;
+    }
+    #menu-screen{
+        display: none;
+    }
+}
+@media (max-width: 800px) {
+    .footer-container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    .footer-right {
+      align-items: flex-end;
+    }
+  }
+  @media(max-width:600px){
+    .img-fluid{
+      height: 100%;
+    }
+    .img{
+      height: 200px;
+    }
+    .over{
+      height: 200px;
+      overflow: scroll;
+    }
+    ::-webkit-scrollbar{
+      display: inline;
+      color: rgb(0, 0, 0);
+    }
+  }
